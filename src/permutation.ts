@@ -16,5 +16,3 @@ export function permutation(input: string) {
 }
 
 console.log(permutation("abc"));
-
-// export default permutation;

@@ -2,10 +2,6 @@ import type * as TestFunctions from "./findtheoddint";
 const { findTheOddInt } =
   jest.requireActual<typeof TestFunctions>("./findtheoddint");
 
-// countSmileys([':)', ';(', ';}', ':-D']); // should return 2;
-// countSmileys([';D', ':-(', ':-)', ';~)']); // should return 3;
-// countSmileys([';]', ':[', ';*', ':$', ';-D']); // should return 1;
-
 const successCase = [
   {
     input: [7],
